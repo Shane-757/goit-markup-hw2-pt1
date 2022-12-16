@@ -1,4 +1,4 @@
-@use '../utils/variable';
+
 ul {
     list-style: none;
     margin-top: 0;
@@ -12,8 +12,8 @@ a {
 }
 
 body {
-    font-family: Roboto, sans-serif;
-    color: map-get(variable.$colors, 'primary-text-color');
+    font-family: 'Poppins';
+    color: black;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;

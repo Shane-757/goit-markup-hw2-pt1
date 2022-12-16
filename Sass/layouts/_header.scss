@@ -1,0 +1,17 @@
+.header{
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    width: 100%;
+}
+.header__container{
+    padding: 31px 0 31px 15px;
+}
+.header__logo{
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 38px;
+        color: black;
+        
+        
+}

@@ -11,13 +11,15 @@
         rel="stylesheet">
     <link rel=“stylesheet” href=“https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css”
         integrity=“sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==”
-        crossorigin=“anonymous” />
+        crossorigin=“anonymous”/>
+        <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
     <header class="header">
         <div class="container header__container">
             <nav class="header__navigation">
                 <a class="header__logo" href="./index.html">Webnaut</a>
+                <!--
                 <ul class="header__list-link">
                     <li class="header__link">
                         <a class="header__link-item current" href="./index.html">Studio</a>
@@ -31,8 +33,8 @@
                 <ul class="header__contact-list">
                     <li class="header__contact header__contact-email">
                         <a class="header__contact-link header__contact-email" href="mailto:sayhello@studio.com">
-                            <svg class="header__contact-icon" width="15px" height="12px">
-                                <use href="images/sprite.svg#icon-mail">
+                            <svg class="header__contact-icon" width="15" height="12">
+                                <use href="./images/sprite.svg#icon-mail">
                                 </use>
                             </svg>
                             sayhello@studio.com
@@ -41,7 +43,7 @@
                     <li class="header__contact header__contact-phone">
                         <a class="header__contact-link" href="tel:4407813797570">
                             <svg class="header__contact-icon" width="15px" height="12px">
-                                <use href="images/sprite.svg#icon-phone">
+                                <use  href="./images/sprite.svg#icon-phone">
                                 </use>
                             </svg>
                             +44 (078) 1379 7570
@@ -52,6 +54,7 @@
                 </ul>
             </address>
         </div>
+        
         <div class="mobile__container">
             <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
                 <svg width="24" height="24">
@@ -93,7 +96,7 @@
                     <li class="mobile__contact mobile__contact-phone">
                         <a class="mobile__contact-link" href="tel:4407813797570">
                             <svg class="mobile__contact-icon" width="15px" height="12px">
-                                <use href="images/sprite.svg#icon-phone">
+                                <use  href="./images/sprite.svg#icon-phone">
                                 </use>
                             </svg>
                             +44 (078) 1379 7570
@@ -102,7 +105,7 @@
                     <li class="mobile__contact mobile__contact-email">
                         <a class="mobile__contact-link mobile__contact-email" href="mailto:sayhello@studio.com">
                             <svg class="mobile__contact-icon" width="15px" height="12px">
-                                <use href="images/sprite.svg#icon-mail">
+                                <use  href="./images/sprite.svg#icon-mail">
                                 </use>
                             </svg>
                             sayhello@studio.com
@@ -137,7 +140,8 @@
                         </li>
                     </ul>
                 </div>
-        </div>
+                -->
+        </div> 
     </header>
 <main class="main">
     <section class="hero">
@@ -156,7 +160,7 @@
                 <li class="business__item">
                     <a class="business__link" href="#">
                         <svg class="business__link-icon" width="133px" height="48px">
-                            <use href="images/sprite.svg#icon-adobe">
+                            <use  href="./images/sprite.svg#icon-adobe">
                             </use>
                         </svg>
                     </a>
@@ -164,7 +168,7 @@
                 <li class="business__item">
                     <a class="business__link" href="#">
                         <svg class="business__link-icon" width="133px" height="48px">
-                            <use href="images/sprite.svg#icon-airbnb">               
+                            <use  href="./images/sprite.svg#icon-airbnb">               
                             </use>
                         </svg>
                     </a>
@@ -172,7 +176,7 @@
                 <li class="business__item">
                     <a class="business__link" href="#">
                         <svg class="business__link-icon" width="133px" height="48px">
-                            <use href="images/sprite.svg#icon-spotify">               
+                            <use  href="./images/sprite.svg#icon-spotify">               
                             </use>
                         </svg>
                     </a>
@@ -180,7 +184,7 @@
                 <li class="business__item">
                     <a class="business__link" href="#">
                         <svg class="business__link-icon" width="133px" height="48px">
-                            <use href="images/sprite.svg#icon-discord">               
+                            <use  href="./images/sprite.svg#icon-discord">               
                             </use>
                         </svg>
                     </a>
@@ -188,15 +192,23 @@
                 <li class="business__item">
                     <a class="business__link" href="#">
                         <svg class="business__link-icon" width="133px" height="48px">
-                            <use href="images/sprite.svg#icon-amazon">               
+                            <use  href="./images/sprite.svg#icon-amazon">               
                             </use>
+                            <svg class="business__link-icon" width="133px" height="48px">
+                                <use href="./images/sprite.svg#icon-amazon-logo">
+                                </use>
+                            </svg>
                         </svg>
                     </a>
                 </li>
                 <li class="business__item">
                     <a class="business__link" href="#">
                         <svg class="business__link-icon" width="133px" height="48px">
-                            <use href="images/sprite.svg#icon-dropbox">               
+                            <use  href="./images/sprite.svg#icon-dropbox">               
+                            </use>
+                        </svg>
+                        <svg class="business__link-icon" width="133px" height="48px">
+                            <use href="./images/sprite.svg#icon-dropbox-logo">
                             </use>
                         </svg>
                     </a>
@@ -214,7 +226,7 @@
                         <li class="project__list-item">
                             <svg class="project__icon" width="30px" height="30px">                               
                             </svg>
-                                <use href="images/sprite.svg#icon-calendar-with-pen">                                   
+                                <use  href="./images/sprite.svg#icon-calendar-with-pen">                                   
                                 </use>
                                     <h4 class="project__item-title">
                                         Pre-Design
@@ -226,7 +238,7 @@
                         <li class="project__list-item">
                             <svg class="project__icon" width="30px" height="30px">
                             </svg>
-                                <use href="images/sprite.svg#icon-drawing">
+                                <use  href="./images/sprite.svg#icon-drawing">
                                 </use>
                                     <h4 class="project__item-title">
                                         Design
@@ -238,7 +250,7 @@
                         <li class="project__list-item">
                             <svg class="project__icon" width="30px" height="30px">
                             </svg>
-                                <use href="images/sprite.svg#icon-nav-arrows">
+                                <use  href="./images/sprite.svg#icon-nav-arrows">
                                 </use>
                                     <h4 class="project__item-title">
                                         Development
@@ -250,7 +262,7 @@
                         <li class="project__list-item">
                             <svg class="project__icon" width="30px" height="30px">
                             </svg>
-                                <use href="images/sprite.svg#icon-bug">
+                                <use  href="./images/sprite.svg#icon-bug">
                                 </use>
                                     <h4 class="project__item-title">
                                         Support
@@ -263,7 +275,7 @@
                     <button class="project__button" type="button">
                         Learn More
                             <svg class="project__button-icon" width="17px" height="12px">
-                                <use href="images/sprite.svg#icon-arrow">                               
+                                <use  href="./images/sprite.svg#icon-arrow">                               
                                 </use>
                             </svg>
                     </button>
@@ -517,7 +529,7 @@
                                 <li class="our-team__item-socials-item">
                                     <a class="our-team__item-socials-link" href="#">
                                         <svg class="our-team__item-socials-link-icon" width="20px" height="20px">
-                                            <use href="images/sprite.svg#icon-instagram">
+                                            <use  href="./images/sprite.svg#icon-instagram">
                                             </use>
                                         </svg>
                                     </a>
@@ -525,7 +537,7 @@
                                 <li class="our-team__item-socials-item">
                                     <a class="our-team__item-socials-link" href="#">
                                         <svg class="our-team__item-socials-link-icon" width="20px" height="20px">
-                                            <use href="images/sprite.svg#icon-twitter">
+                                            <use  href="./images/sprite.svg#icon-twitter">
                                             </use>
                                         </svg>
                                     </a>
@@ -533,7 +545,7 @@
                                 <li class="our-team__item-socials-item">
                                     <a class="our-team__item-socials-link" href="#">
                                         <svg class="our-team__item-socials-link-icon" width="20px" height="20px">
-                                            <use href="images/sprite.svg#icon-facebook">
+                                            <use  href="./images/sprite.svg#icon-facebook">
                                             </use>
                                         </svg>
                                     </a>
@@ -541,7 +553,7 @@
                                 <li class="our-team__item-socials-item">
                                     <a class="our-team__item-socials-link" href="#">
                                         <svg class="our-team__item-socials-link-icon" width="20px" height="20px">
-                                            <use href="images/sprite.svg#icon-linkedin">
+                                            <use  href="./images/sprite.svg#icon-linkedin">
                                             </use>
                                         </svg>
                                     </a>
@@ -577,7 +589,7 @@
                                 <li class="our-team__item-socials-item">
                                     <a class="our-team__item-socials-link" href="#">
                                         <svg class="our-team__item-socials-link-icon" width="20px" height="20px">
-                                            <use href="images/sprite.svg#icon-instagram">
+                                            <use  href="./images/sprite.svg#icon-instagram">
                                             </use>
                                         </svg>
                                     </a>
@@ -585,7 +597,7 @@
                                 <li class="our-team__item-socials-item">
                                     <a class="our-team__item-socials-link" href="#">
                                         <svg class="our-team__item-socials-link-icon" width="20px" height="20px">
-                                            <use href="images/sprite.svg#icon-twitter">
+                                            <use  href="./images/sprite.svg#icon-twitter">
                                             </use>
                                         </svg>
                                     </a>
@@ -593,7 +605,7 @@
                                 <li class="our-team__item-socials-item">
                                     <a class="our-team__item-socials-link" href="#">
                                         <svg class="our-team__item-socials-link-icon" width="20px" height="20px">
-                                            <use href="images/sprite.svg#icon-facebook">
+                                            <use  href="./images/sprite.svg#icon-facebook">
                                             </use>
                                         </svg>
                                     </a>
@@ -601,7 +613,7 @@
                                 <li class="our-team__item-socials-item">
                                     <a class="our-team__item-socials-link" href="#">
                                         <svg class="our-team__item-socials-link-icon" width="20px" height="20px">
-                                            <use href="images/sprite.svg#icon-linkedin">
+                                            <use  href="./images/sprite.svg#icon-linkedin">
                                             </use>
                                         </svg>
                                     </a>
@@ -637,7 +649,7 @@
                                 <li class="our-team__item-socials-item">
                                     <a class="our-team__item-socials-link" href="#">
                                         <svg class="our-team__item-socials-link-icon" width="20px" height="20px">
-                                            <use href="images/sprite.svg#icon-instagram">
+                                            <use  href="./images/sprite.svg#icon-instagram">
                                             </use>
                                         </svg>
                                     </a>
@@ -645,7 +657,7 @@
                                 <li class="our-team__item-socials-item">
                                     <a class="our-team__item-socials-link" href="#">
                                         <svg class="our-team__item-socials-link-icon" width="20px" height="20px">
-                                            <use href="images/sprite.svg#icon-twitter">
+                                            <use  href="./images/sprite.svg#icon-twitter">
                                             </use>
                                         </svg>
                                     </a>
@@ -653,7 +665,7 @@
                                 <li class="our-team__item-socials-item">
                                     <a class="our-team__item-socials-link" href="#">
                                         <svg class="our-team__item-socials-link-icon" width="20px" height="20px">
-                                            <use href="images/sprite.svg#icon-facebook">
+                                            <use  href="./images/sprite.svg#icon-facebook">
                                             </use>
                                         </svg>
                                     </a>
@@ -661,7 +673,7 @@
                                 <li class="our-team__item-socials-item">
                                     <a class="our-team__item-socials-link" href="#">
                                         <svg class="our-team__item-socials-link-icon" width="20px" height="20px">
-                                            <use href="images/sprite.svg#icon-linkedin">
+                                            <use  href="./images/sprite.svg#icon-linkedin">
                                             </use>
                                         </svg>
                                     </a>
@@ -673,7 +685,7 @@
                 <button class="our-team__button" type="button">
                     Hire Us
                     <svg class="our-team__button-icon" width="17px" height="12px">
-                        <use href="images/sprite.svg#icon-arrow">
+                        <use  href="./images/sprite.svg#icon-arrow">
                         </use>
                     </svg>
                 </button>
@@ -703,7 +715,7 @@
                             <li class="subscribe__contact subscribe__contact-phone">
                                 <a class="subscribe__contact-link" href="tel:4407813797570">
                                     <svg class="subscribe__contact-icon" width="15px" height="12px">
-                                        <use href="images/sprite.svg#icon-phone">
+                                        <use  href="./images/sprite.svg#icon-phone">
                                         </use>
                                     </svg>
                                     +44 (078) 1379 7570
@@ -712,7 +724,7 @@
                             <li class="subscribe__contact subscribe__contact-email">
                                 <a class="subscribe__contact-link subscribe__contact-email" href="mailto:sayhello@studio.com">
                                     <svg class="subscribe__contact-icon" width="15px" height="12px">
-                                        <use href="images/sprite.svg#icon-mail">
+                                        <use  href="./images/sprite.svg#icon-mail">
                                         </use>
                                     </svg>
                                     sayhello@studio.com
@@ -727,28 +739,28 @@
                         <li class="subscribe__socials-item">
                             <a class="subscribe__socials-link" href="#">
                                 <svg class="subscribe__socials-link-icon" width="20px" height="20px">
-                                    <use href="images/sprite.svg#icon-instagram"></use>
+                                    <use  href="./images/sprite.svg#icon-instagram"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="subscribe__socials-item">
                             <a class="subscribe__socials-link" href="#">
                                 <svg class="subscribe__socials-link-icon" width="20px" height="20px">
-                                    <use href="images/sprite.svg#icon-twitter"></use>
+                                    <use  href="./images/sprite.svg#icon-twitter"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="subscribe__socials-item">
                             <a class="subscribe__socials-link" href="#">
                                 <svg class="subscribe__socials-link-icon" width="20px" height="20px">
-                                    <use href="images/sprite.svg#icon-facebook"></use>
+                                    <use  href="./images/sprite.svg#icon-facebook"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="subscribe__socials-item">
                             <a class="subscribe__socials-link" href="#">
                                 <svg class="subscribe__socials-link-icon" width="20px" height="20px">
-                                    <use href="images/sprite.svg#icon-linkedin"></use>
+                                    <use  href="./images/sprite.svg#icon-linkedin"></use>
                                 </svg>
                             </a>
                         </li>
@@ -790,7 +802,7 @@
                     <li class="footer__contact footer__contact-phone">
                         <a class="footer__contact-link" href="tel:4407813797570">
                             <svg class="footer__contact-icon" width="15px" height="12px">
-                                <use href="images/sprite.svg#icon-phone">
+                                <use  href="./images/sprite.svg#icon-phone">
                                 </use>
                             </svg>
                             +44 (078) 1379 7570
@@ -799,7 +811,7 @@
                     <li class="footer__contact footer__contact-email">
                         <a class="footer__contact-link footer__contact-email" href="mailto:sayhello@studio.com">
                             <svg class="footer__contact-icon" width="15px" height="12px">
-                                <use href="images/sprite.svg#icon-mail">
+                                <use  href="./images/sprite.svg#icon-mail">
                                 </use>
                             </svg>
                             sayhello@studio.com
@@ -814,28 +826,28 @@
                 <li class="footer__socials-item">
                     <a class="footer__socials-link" href="#">
                         <svg class="footer__socials-link-icon" width="20px" height="20px">
-                            <use href="images/sprite.svg#icon-instagram"></use>
+                            <use  href="./images/sprite.svg#icon-instagram"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="footer__socials-item">
                     <a class="footer__socials-link" href="#">
                         <svg class="footer__socials-link-icon" width="20px" height="20px">
-                            <use href="images/sprite.svg#icon-twitter"></use>
+                            <use  href="./images/sprite.svg#icon-twitter"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="footer__socials-item">
                     <a class="footer__socials-link" href="#">
                         <svg class="footer__socials-link-icon" width="20px" height="20px">
-                            <use href="images/sprite.svg#icon-facebook"></use>
+                            <use  href="./images/sprite.svg#icon-facebook"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="footer__socials-item">
                     <a class="footer__socials-link" href="#">
                         <svg class="footer__socials-link-icon" width="20px" height="20px">
-                            <use href="images/sprite.svg#icon-linkedin"></use>
+                            <use  href="./images/sprite.svg#icon-linkedin"></use>
                         </svg>
                     </a>
                 </li>
@@ -845,7 +857,7 @@
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal__button" data-modal-close><svg class="icon-close" width="30px" height="30px">
-                    <use href="images/sprite.svg#icon-close"></use>
+                    <use  href="./images/sprite.svg#icon-close"></use>
                 </svg>
             </button>
             <form class="modal__form" name="customer__information">
@@ -853,21 +865,21 @@
                 <label class="modal__label">
                     Name
                     <svg class="modal__icon" width="12px" height="12px">
-                        <use href="images/sprite.svg#icon-person"></use>
+                        <use  href="./images/sprite.svg#icon-person"></use>
                     </svg>
                     <input class="modal__input" type="text" name="full-name"  placeholder="Enter your name">
                 </label>
                 <label class="modal__label">
                     Phone Number
                     <svg class="modal__icon" width="13px" height="13px">
-                        <use href="images/sprite.svg#icon-phone"></use>
+                        <use  href="./images/sprite.svg#icon-phone"></use>
                     </svg>
                     <input class="modal__input" type="tel" name="phone-number"  placeholder="+44(0XX) XXXX XXXX">
                 </label>
                 <label class="modal__label">
                     E-mail
                     <svg class="modal__icon" width="15px" height="12px">
-                        <use href="images/sprite.svg#icon-mail"></use>
+                        <use  href="./images/sprite.svg#icon-mail"></use>
                     </svg>
                     <input class="modal__input" type="email" name="email"  placeholder="example@mail.com">
                 </label>
@@ -880,7 +892,7 @@
                 <label class="modal__checkbox-label" for="checkbox-policy">
                     <span class="modal__checkbox">
                         <svg class="modal__checkmark" width="11px" height="8px">
-                            <use href="images/sprite.svg#icon-checkmark"></use>
+                            <use  href="./images/sprite.svg#icon-checkmark"></use>
                         </svg>
                     </span>
                     <span>
