@@ -1,4 +1,7 @@
+@use './base/container';
 @use './base/global';
 @use './layouts/hero';
 @use './layouts/header';
-@use './layouts/mobile-window'
+@use './layouts/mobile-window';
+@use './layouts/business';
+@use './layouts/project';
