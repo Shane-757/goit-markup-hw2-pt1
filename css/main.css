@@ -101,9 +101,9 @@ img {
   font-weight: 700;
   font-size: 22px;
   line-height: 33px;
-  width: 320px;
+  width: 305px;
   color: #FFFFFF;
-  padding: 20px 20px 0 20px;
+  padding: 20px 0 0 20px;
 }
 
 .hero__info {
@@ -191,10 +191,6 @@ img {
   flex-direction: column;
 }
 
-.mobile__menue-link-item {
-  margin-bottom: 20px;
-}
-
 .mobile__menu-link:hover,
 .mobile__menu-link:focus {
   color: blue;
@@ -266,7 +262,7 @@ img {
 
 .mobile__menu-link {
   display: block;
-  padding: 10px;
+  padding: 10px 0;
   color: black;
   text-decoration: none;
 }
@@ -363,14 +359,6 @@ img {
   justify-content: space-around;
 }
 
-.business__item:nth-child(odd) {
-  padding-left: 30px;
-}
-
-.business__item:nth-child(even) {
-  padding-right: 30px;
-}
-
 .project {
   background: #F9F9F9;
   padding-top: 40px;
@@ -422,8 +410,6 @@ img {
 .project__button {
   width: 161px;
   height: 52px;
-  right: 289px;
-  top: 1067px;
   background: #626CA9;
   border-radius: 100px;
   font-weight: 500;

@@ -47,9 +47,7 @@
     flex-direction: column;
 }
 
-.mobile__menue-link-item{
-    margin-bottom: 20px;
-}
+
 
 .mobile__menu-link:hover,
 .mobile__menu-link:focus {
@@ -125,7 +123,7 @@
 
 .mobile__menu-link {
     display: block;
-    padding: 10px;
+    padding: 10px 0;
     color:black;
     text-decoration: none;
 }
