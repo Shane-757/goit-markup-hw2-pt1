@@ -1,0 +1,75 @@
+ .subscribe {
+     background-color: #D8DDFF;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+ }
+ @media (min-width: 1200px) {
+     .subscribe {
+         background-image: 
+             url(../images/main-images/subscribe-desktop.jpg);
+     }
+ }
+
+ @media (min-width: 1200px) and (min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi),
+ (min-resolution: 2dppx) {
+
+     .subscribe {
+         background-image: 
+             url(../images/main-images/subscribe-desktop.jpg);
+
+
+     }
+ }
+
+ @media (min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi),
+ (min-resolution: 2dppx) {
+
+     .subscribe {
+         background-image: 
+             url(../images/main-images/subscribe-desktop@2x.jpg);
+
+     }
+ }
+
+ @media screen and (min-width: 768px) and (max-width: 1199px) {
+
+     .subscribe {
+         background-image: 
+             url(../images/main-images/subscribe-tablet.jpg);
+
+     }
+ }
+
+ @media screen and (min-width: 768px) and (max-width: 1199px) and (min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi),
+ (min-resolution: 2dppx) {
+
+     .subscribe {
+         background-image: 
+             url(../images/main-images/subscribe-tablet@2x.jpg);
+
+     }
+ }
+
+ @media screen and (max-width: 768px) {
+
+     .subscribe {
+         background-image: 
+             url(../images/main-images/subscribe-mobile.jpg);
+             height: 573px;
+            border-radius: 17px;
+            
+
+     }
+ }
+
+ .subscribe__top{
+    background: rgba(98, 108, 169, 0.4);
+    backdrop-filter: blur(8px);
+    border-radius: 27px;
+    padding: 30px 28px 30px 30px;
+    margin: 40px 40px 21px 40px;
+ }
