@@ -1,0 +1,73 @@
+.specialization__container{
+    padding-top: 60px;
+}
+.specialization__list-item-macbook{
+    background: #ECF1FF;
+        border-radius: 17px;
+        padding: 30px 50px 0;
+        margin-bottom: 30px;
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+}
+.specialization__list-item-iphone{
+    background: #F2EDEA;
+        border-radius: 17px;
+        padding: 30px 110px 0;
+        margin-bottom: 30px;
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+}
+.specialization__list-item-3d{
+background: #F3FBFF;
+border-radius: 17px;
+padding: 30px 83px 0;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.specialization__button{
+    background: #626CA9;
+        border-radius: 100px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: -0.37px;
+        color: #FFFFFF;
+        display: flex;
+        padding: 10px 17px;
+        margin-bottom: 30px;
+}
+.specialization-item-text{
+    font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 32px;
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+        text-transform: capitalize;
+        color: #212121;
+        padding-bottom: 15px;
+}
+.specialization__title{
+    font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #212121;
+}
+.specialization__title-main{
+    font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 40px;
+        text-transform: capitalize;
+        color: #212121;
+        padding-bottom: 25px;
+}

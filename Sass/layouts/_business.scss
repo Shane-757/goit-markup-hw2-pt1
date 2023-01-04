@@ -1,4 +1,5 @@
 .business{
+    display: flex;
     margin-top: 60px;
     margin-bottom: 60px;
     
@@ -9,4 +10,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
+.business__container{
+    
+    flex-basis: calc(100%/2 - 10px);
+}

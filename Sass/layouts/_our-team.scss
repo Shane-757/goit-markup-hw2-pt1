@@ -1,0 +1,38 @@
+.our-team{
+    background: #F9F9F9;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-top: 40px;
+}
+.our-team__title{
+    font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #212121;
+}
+.our-team__title-main{
+    font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 40px;
+        text-transform: capitalize;
+        color: #212121;
+        padding-bottom: 30px;
+}
+.team-img{
+    border-radius: 17px;
+}
+.our-team__item-description{
+    font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #212121;
+        background: #FFFFFF;
+        border-radius: 100px;
+        position: relative;
+}
