@@ -1,0 +1,176 @@
+ .subscribe {
+     background-color: #D8DDFF;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+ }
+ @media (min-width: 1200px) {
+     .subscribe {
+         background-image: 
+             url(../images/main-images/subscribe-desktop.jpg);
+     }
+ }
+
+ @media (min-width: 1200px) and (min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi),
+ (min-resolution: 2dppx) {
+
+     .subscribe {
+         background-image: 
+             url(../images/main-images/subscribe-desktop.jpg);
+
+
+     }
+ }
+
+ @media (min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi),
+ (min-resolution: 2dppx) {
+
+     .subscribe {
+         background-image: 
+             url(../images/main-images/subscribe-desktop@2x.jpg);
+
+     }
+ }
+
+ @media screen and (min-width: 768px) and (max-width: 1199px) {
+
+     .subscribe {
+         background-image: 
+             url(../images/main-images/subscribe-tablet.jpg);
+
+     }
+ }
+
+ @media screen and (min-width: 768px) and (max-width: 1199px) and (min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi),
+ (min-resolution: 2dppx) {
+
+     .subscribe {
+         background-image: 
+             url(../images/main-images/subscribe-tablet@2x.jpg);
+
+     }
+ }
+
+ @media screen and (max-width: 768px) {
+
+     .subscribe {
+         background-image: 
+             url(../images/main-images/subscribe-mobile.jpg);
+             height: 573px;
+             margin-left: 15px;
+             margin-right: 15px;
+            border-radius: 17px;
+            
+
+     }
+ }
+ .subscribe__container{
+    padding: 40px;
+ }
+
+ .subscribe__top{
+    background: rgba(98, 108, 169, 0.4);
+    backdrop-filter: blur(8px);
+    border-radius: 27px;
+    padding: 30px 28px 30px 30px;
+    
+ }
+ .subscribe__input-title{
+    font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 32px;
+        color: #FFFFFF;
+        padding-bottom: 15px;
+ }
+ .subscribe__input-text{
+    font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        margin-right: 60px;
+        margin-bottom: 33px;
+ }
+ .subscribe__form{
+    display: flex;
+ }
+ .subscribe__input{
+    background: #FFFFFF;
+        border-radius: 100px;
+        font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 20px;
+            color: #ADADAD;
+            border: none;
+            padding: 14px 130px 14px 16px;
+ }
+ .subscribe__button{
+    background: #626CA9;
+        border-radius: 100px;
+        font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 20px;
+            color: #FFFFFF;
+            border: none;
+            position: relative;
+            margin-left: -78px;
+            padding: 14px;
+ }
+ .subscribe__bottom{
+    background: rgba(98, 108, 169, 0.4);
+        backdrop-filter: blur(8px);
+        border-radius: 27px;
+        margin: 0 auto;
+        margin-top: 21px;
+        padding: 30px;
+        width: 244px;
+ }
+ .subscribe__contact-link{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        text-align: right;
+        letter-spacing: -0.2px;
+        color: #FFFFFF;
+ }
+ 
+ .subscribe__contact-icon{
+    margin-right: 10px;
+    fill: #FFFFFF;
+ }
+ .subscribe__contact-phone{
+    margin-bottom: 15px;
+ }
+ .subscribe__contact-email{
+    margin-bottom: 15px;
+ }
+ .subscribe__contact-location{
+    margin-bottom: 28px;
+ }
+ .subscribe__social-media {
+     display: flex;
+     justify-content: center;
+ }
+ .subscribe__socials-item{
+    background: #FFFFFF;
+        border-radius: 100px;
+        padding: 9px;
+        
+    }
+.subscribe__socials-item:not(:last-child){
+    margin-right: 11px;
+}

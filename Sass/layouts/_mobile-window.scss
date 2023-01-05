@@ -190,14 +190,35 @@
     font-size: 19px;
     line-height: 28px;
     letter-spacing: -0.37px;
+    color: #212121;
+    display: flex;
+    align-items: center;  
+}
+
+.mobile__contact-location{
+    display: flex;
+    align-items: center;
     
 }
 
 .mobile__media-link{
     color: #212121;
 }
+
 .mobile__contacts{
     bottom: 0px;
     position: absolute;
     width: 100%;
+}
+
+.mobile__contact-icon{
+    margin-right: 10px;
+}
+
+.mobile__contact-phone{
+    margin-bottom: 20px;
+}
+
+.mobile__contact-email{
+    margin-bottom: 20px;
 }
