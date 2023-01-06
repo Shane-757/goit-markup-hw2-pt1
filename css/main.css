@@ -5,6 +5,7 @@
   padding-left: 15px;
 }
 
+body *,
 *::before,
 *::after {
   box-sizing: border-box;
