@@ -5,15 +5,10 @@
   padding-left: 15px;
 }
 
-ul {
-  list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-a {
-  text-decoration: none;
+*::before,
+*::after {
+  box-sizing: border-box;
+  display: block;
 }
 
 body {
@@ -27,11 +22,15 @@ body {
   margin: 0;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  display: block;
+ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
