@@ -532,7 +532,7 @@ img {
   padding-bottom: 25px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1920px) {
   .completed-projects {
     position: absolute;
     width: 1px;
